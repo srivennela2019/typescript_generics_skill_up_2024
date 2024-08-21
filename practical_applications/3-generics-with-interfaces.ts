@@ -11,14 +11,14 @@ interface Car<T> {
 }
 
 // Using our generic
-const personOne: Car<(number|string)[]> = {
+const carOne: Car<(number|string)[]> = {
 	id: 1,
 	name: 'Subaru',
 	metadata: ['blindspot', 180, 'sport', 'suv']
 }
 
 // Using our generic
-const personTwo: Car<MetaData> = {
+const carTwo: Car<MetaData> = {
 	id: 2,
 	name: 'Chevorlet',
 	metadata: {
